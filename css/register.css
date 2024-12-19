@@ -1,0 +1,27 @@
+input {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.7rem;
+    padding-bottom: 0.2rem;
+    border: solid 3px #ad9b5b;
+    margin: 0.7vw;
+    border-radius: 0.5vw;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1rem;
+}
+
+.goIn {
+    display: flex;
+}
+
+.goIn button {
+    background-color: #ffffff00;
+    font-family: 'Gochi Hand', cursive;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.goIn button:hover {
+    color: #4e4525;
+}

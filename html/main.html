@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>todo-app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-div"></div>
+    <img src="../images/little girl.png" id="littleGirl">
+    <template id="todo-page">
+        <button id="log-out">log-out</button>
+        <section class="container">
+            <div class="heading">
+                <img class="headingImg" src="../images/laptop.png">
+                <h1 class="headingTitle">To-Do List</h1>
+            </div>
+            <div id="controlSearchBox" class="searchBtnOpen">
+                <input id="searchBox"  type="text" id="search" placeholder="search a task title...">
+            </div>
+            <form class="form">
+                <div>
+                    <input class="formInput" type="text" id="title" name="to-do" placeholder="title" required>
+                    <input class="formInput" type="date" id="date" name="to-do" placeholder="date" required>
+                    <input class="formInput" type="text" id="content" name="to-do" placeholder="content" required>
+                    <button type="button" class="button" id="submit-task"><span>Submit</span></button>
+                </div>
+            </form>
+            <div>
+                <ul id="toDoList">
+                </ul>
+            </div>
+        </section>
+    </template>
+
+    <template id="login">
+        <div class="getIn">
+            <h2>login</h2>
+            <div class="inputBx">
+                <input id="userName" type="text" placeholder="user name">
+            </div>
+            <div class="inputBx">
+                <input id="userEmail" type="email" placeholder="email">
+            </div>
+            <div class="inputBx">
+                <input id="pwd" type="password" placeholder="password">
+            </div>
+            <div class="inputBx" id="sendValueLogIn">
+                <input id="loginLink" type="button" value="login">
+            </div>
+            <div class="goIn">
+                <p>don't have an account yet?</p>
+                <button id="registerLink" href="#">click here</button>
+            </div>
+        </div>
+    </template>
+<template id="registration">
+        <div class="getIn">
+            <h2>sign up</h2>
+            <div class="inputBx">
+                <input id="userName" type="text" placeholder="user name">
+            </div>
+            <div class="inputBx">
+                <input id="userEmail" type="email" placeholder="email">
+            </div>
+            <div class="inputBx">
+                <input id="pwd" type="password" placeholder="password">
+            </div>
+            <div class="inputBx" id="sendValueSignUp">
+                <input id="signUpLink" type="button" value="signup">
+            </div>
+            <div class="goIn">
+                <p>Already have an account?</p>
+                <button id="logInLink" href="#">click here</button>
+            </div>
+        </div>
+    </template>
+    <script src="../js/taskDBapi.js"></script>
+    <script src="../js/registerDBapi.js"></script>
+    <script src="../js/server.js"></script>
+    <script src="../js/networkSetup.js"></script>
+    <script src="../js/network.js"></script>
+    <script src="../js/FXMLHttpRequest.js"></script>
+    <script src="../js/toDoItem.js"></script>
+    <script src="../js/User.js"></script>
+    <script src="../js/logIn.js"></script>
+    <script src="../js/signUp.js"></script>
+    <script src="../js/pageControl.js"></script>
+</body>
+
+</html>
