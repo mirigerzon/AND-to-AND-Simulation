@@ -21,3 +21,11 @@ The project demonstrates real-time logic processing, providing a visual represen
 
 ## Purpose
 This project serves as an educational tool to understand AND logic systems and their implementation in a front-end environment.
+
+---
+
+## Author
+**Miriam Gerson**  
+- 📫 Email: a0583286530@gmail.com  
+- 🔗 GitHub: [mirigerzon](https://github.com/mirigerzon)  
+- 🔗 LinkedIn: [miri-gerzon](https://www.linkedin.com/in/miri-gerzon)
